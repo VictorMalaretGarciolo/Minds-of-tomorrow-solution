@@ -1,137 +1,147 @@
-                                                                * {
-                                                                box-sizing: border-box;
-                                                                font-family: 'Quicksand', sans-serif;
-                                                            }
-                                                            
-                                                            body {
-                                                                margin: 0px;
-                                                            }
-                                                            
-                                                            .row:after {
-                                                                content: "";
-                                                                display: table;
-                                                                clear: both;
-                                                            }
-                                                            
-                                                            .header {
-                                                                background-image: url("../img/banner-2.jpg");
-                                                                background-size: cover;
-                                                                background-attachment: fixed;
-                                                                padding: 10% 20px;
-                                                                text-align: center;
-                                                            }
-                                                            
-                                                            .header h1 {
-                                                                font-size: 100px;
-                                                            }
-                                                            
-                                                            .one-column {
-                                                                padding: 5%;
-                                                                float: left;
-                                                                width: 100%;
-                                                            }
-                                                            
-                                                            .one-column h1 {
-                                                                font-size: 5vw;
-                                                                text-align: center;
-                                                            }
-                                                            
-                                                            .two-column {
-                                                                padding: 2%;
-                                                                float: left;
-                                                                width: 50%;
-                                                            }
-                                                            
-                                                            .two-column h1 {
-                                                                font-size: 6vw;
-                                                            }
-                                                            
-                                                            .two-column img {
-                                                                width: 100%;
-                                                            }
-                                                            
-                                                            .three-column {
-                                                                font-size: 22px;
-                                                                padding: 20px;
-                                                                float: right;
-                                                                width: 33.33%;
-                                                            }
-                                                            
-                                                            .three-column img {
-                                                                width: 100%;
-                                                            }
-                                                            
-                                                            .four-column {
-                                                                float: left;
-                                                                width: 25%;
-                                                                padding: 2%;
-                                                            }
-                                                            
-                                                            .four-column img {
-                                                                width: 100%;
-                                                            }
-                                                            
-                                                            .four-column p {
-                                                                text-align: center;
-                                                            }
-                                                            
-                                                            #section-2 {
-                                                                background-color: #28eca5;
-                                                            }
-                                                            
-                                                            #section-5 {
-                                                                background-color: #46a6fc;
-                                                            }
-                                                            
-                                                            #footer {
-                                                                background-color: black;
-                                                                color: white;
-                                                            }
-                                                            
-                                                            #footer p {
-                                                                font-size: 20px;
-                                                                text-align: left;
-                                                            }
-                                                            /*clases auxiliares*/
-                                                            
-                                                            .padding-0 {
-                                                                padding: 0px;
-                                                            }
-                                                            
-                                                            ul {
-                                                                list-style-type: none;
-                                                                margin: 0;
-                                                                font-size: 25px;
-                                                                padding: 5px 15px;
-                                                                overflow: hidden;
-                                                                transition: 0.8s;
-                                                                position: fixed;
-                                                                top: 0;
-                                                                width: 100%;
-                                                            }
-                                                            
-                                                            li {
-                                                                float: left;
-                                                                width: 25%;
-                                                            }
-                                                            
-                                                            li a {
-                                                                display: block;
-                                                                color: black;
-                                                                text-align: center;
-                                                                padding: 14px 16px;
-                                                                text-decoration: none;
-                                                            }
-                                                            
-                                                            li a:hover {
-                                                                background-color: black;
-                                                                color: white;
-                                                            }
-                                                            
-                                                            @media screen and (max-width:700px) {
-                                                                .two-column {
-                                                                    width: 100%;
-                                                                }
-                                                                .four-column {
-                                                                    width: 50%;
-                                                                }
+                                                                    * {
+                                                                        box-sizing: border-box;
+                                                                        font-family: 'Quicksand', sans-serif;
+                                                                    }
+                                                                    
+                                                                    body {
+                                                                        margin: 0px;
+                                                                    }
+                                                                    
+                                                                    .row:after {
+                                                                        content: "";
+                                                                        display: table;
+                                                                        clear: both;
+                                                                    }
+                                                                    
+                                                                    .header {
+                                                                        background-image: url("../img/banner-2.jpg");
+                                                                        background-size: cover;
+                                                                        background-attachment: fixed;
+                                                                        padding: 10% 20px;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .header h1 {
+                                                                        font-size: 100px;
+                                                                    }
+                                                                    
+                                                                    .one-column {
+                                                                        padding: 5%;
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                    }
+                                                                    
+                                                                    .one-column h1 {
+                                                                        font-size: 5vw;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .two-column {
+                                                                        padding: 2%;
+                                                                        float: left;
+                                                                        width: 50%;
+                                                                    }
+                                                                    
+                                                                    .two-column h1 {
+                                                                        font-size: 6vw;
+                                                                    }
+                                                                    
+                                                                    .two-column img {
+                                                                        width: 100%;
+                                                                    }
+                                                                    
+                                                                    .three-column {
+                                                                        font-size: 22px;
+                                                                        padding: 20px;
+                                                                        float: right;
+                                                                        width: 33.33%;
+                                                                    }
+                                                                    
+                                                                    .three-column img {
+                                                                        width: 100%;
+                                                                    }
+                                                                    
+                                                                    .four-column {
+                                                                        float: left;
+                                                                        width: 25%;
+                                                                        padding: 2%;
+                                                                    }
+                                                                    
+                                                                    .four-column img {
+                                                                        width: 100%;
+                                                                    }
+                                                                    
+                                                                    .four-column p {
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    #section-2 {
+                                                                        background-color: #28eca5;
+                                                                    }
+                                                                    
+                                                                    #section-5 {
+                                                                        background-color: #46a6fc;
+                                                                    }
+                                                                    
+                                                                    #footer {
+                                                                        background-color: black;
+                                                                        color: white;
+                                                                    }
+                                                                    
+                                                                    #footer p {
+                                                                        font-size: 20px;
+                                                                        text-align: left;
+                                                                    }
+                                                                    /*clases auxiliares*/
+                                                                    
+                                                                    .padding-0 {
+                                                                        padding: 0px;
+                                                                    }
+                                                                    
+                                                                    ul {
+                                                                        list-style-type: none;
+                                                                        margin: 0;
+                                                                        font-size: 25px;
+                                                                        padding: 5px 15px;
+                                                                        overflow: hidden;
+                                                                        transition: 0.8s;
+                                                                        position: fixed;
+                                                                        top: 0;
+                                                                        width: 100%;
+                                                                    }
+                                                                    
+                                                                    li {
+                                                                        float: left;
+                                                                        width: 25%;
+                                                                    }
+                                                                    
+                                                                    li a {
+                                                                        display: block;
+                                                                        color: black;
+                                                                        text-align: center;
+                                                                        padding: 14px 16px;
+                                                                        text-decoration: none;
+                                                                    }
+                                                                    
+                                                                    li a:hover {
+                                                                        background-color: black;
+                                                                        color: white;
+                                                                    }
+                                                                    
+                                                                    @media screen and (max-width:700px) {
+                                                                        .two-column {
+                                                                            width: 100%;
+                                                                        }
+                                                                        .four-column {
+                                                                            width: 50%;
+                                                                        }
+                                                                        .header {
+                                                                            font-size: 40px;
+                                                                        }
+                                                                        li a {
+                                                                            font-size: 14px;
+                                                                        }
+                                                                        ul {
+                                                                            padding: 0px;
+                                                                        }
+                                                                    }
